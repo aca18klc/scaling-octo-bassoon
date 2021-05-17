@@ -18,3 +18,5 @@ pd.set_option('display.max_colwidth', 1)
 in here the pd.read_csv would be needed to be change for the filepath.
 
 Two files are in the src. One is a file with preprocessing method while other do not had the preprocessing method 
+
+The data is based on https://github.com/swcwang/depression-detection, so you could check out the original data and coding from there
