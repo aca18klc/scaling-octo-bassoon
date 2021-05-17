@@ -1,19 +1,19 @@
 # scaling-octo-bassoon
 Dissertaion FYP Using language cues to detect clinical conditions
 
-### author
+### Author
 Ken Lok Chan 
 
 ## Setup 
-open the file in jupyter notebook and everything will be good to go
+Open the file in jupyter notebook and everything will be good to go
 
-please remember to install the module that is related into the desktop 
+Please remember to install the module that is related into the desktop such as nltk,panda,sklearn and etc.
 
 One thing to look out for would be the filepath for the related data.
-'''bash
+```jupyter notebook
 df = pd.read_csv("C:/Users/Chan Ken Lok/Documents/Dissertations/depression-detection/data/tweets_combined.csv")
 pd.set_option('display.max_colwidth', 1)
-'''
+```
 
 in here the pd.read_csv would be needed to be change for the filepath.
 
